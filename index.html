@@ -1,60 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <title>My Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <div class="container">
-    <h1 class="myh1">Akshat Katwala</h1>
-    <img class="myImage" src="AKSHAT KATWALA (1).jpg" >
-
-    <br>
-    <a href="https://www.linkedin.com/in/akshatkatwala/">Visit my Linkedin</a>
-    <br>
-    <a href=https://github.com/akshatkatwala/my-portfolio-ACCTMIS4630>Visit my GitHub repo</a>  
-
-<hr>
-<h2 > Education</h2>
-    <ul>
-      <li><strong> Bachelors of Science in Management Information Systems</strong>, 
-    The Ohio State University
-    Columbus, OH 43210, USA. 2026
-  Fisher College of Business
-</li>
-
-
-<h2> Interests </h2>
-  <p></p>
-
-  
-    <table id="mytable">
-      <tr>     <th> Java</th>                      <th> Database Systems</th>      </tr>
-      <tr>     <td> Augmented Reality</td>         <td> Artificial Intelligenece</td>      </tr>
-      <tr>     <td> SQL</td>                       <td> Agile Methodology</td> </tr>
-      <tr>     <td> Tableau  </td>                 <td> Data Analytics   </td>  </tr>
-      <tr>     <td> Excel/PowerBI   </td>          <td> App Development </td>   </tr>
-    </table>
-<br>
-<h3>Please send me your feedback:</h3>
-    <form action="index.html" method="get">
-      <label for="username">Email:</label>
-      <input type="text" id="email" name="email" value="katwala.7@osu,edu">
-      <br>
-      <label for="feedback: ">Feedback:  </label>
-      <input  id="feedback" name="feedback" value="This is a sample website"/>
-      <br>
-      <input id="mybutton" type="submit" value="Submit">
-    </form> 
-
-
-    <button id="button2" > ClickMe
-    </button>
-    <textarea id="myTextArea" rows="5" cols="50">
-      </textarea>
+    <div class="header">
+      <h1 class="myh1">Akshat Katwala</h1>
+      <img class="myImage" src="AKSHAT KATWALA (1).jpg" />
+      <br />
+      <a href="https://www.linkedin.com/in/akshatkatwala/">Visit my LinkedIn</a>
+      <br />
+      <a href="https://github.com/akshatkatwala/my-portfolio-ACCTMIS4630"
+        >Visit my GitHub repo</a
+      >
     </div>
 
-    
-    <script src="myscripts.js"> </script>
+    <hr />
+
+    <div class="education">
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <strong>Bachelors of Science in Management Information Systems</strong
+          ><br />
+          The Ohio State University<br />
+          Columbus, OH 43210, USA — 2026<br />
+          Fisher College of Business
+        </li>
+      </ul>
+    </div>
+
+    <div class="interests">
+      <h2>Interests</h2>
+
+      <table id="mytable">
+        <tr>
+          <th>Java</th>
+          <th>Database Systems</th>
+        </tr>
+        <tr>
+          <td>Augmented Reality</td>
+          <td>Artificial Intelligence</td>
+        </tr>
+        <tr>
+          <td>SQL</td>
+          <td>Agile Methodology</td>
+        </tr>
+        <tr>
+          <td>Tableau</td>
+          <td>Data Analytics</td>
+        </tr>
+        <tr>
+          <td>Excel/PowerBI</td>
+          <td>App Development</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="feedback">
+      <h3>Please send me your feedback:</h3>
+
+      <form action="index.html" method="get">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" value="katwala.7@osu.edu" />
+        <br />
+
+        <label for="feedback">Feedback:</label>
+        <input id="feedback" name="feedback" value="This is a sample website" />
+        <br />
+
+        <input id="mybutton" type="submit" value="Submit" />
+      </form>
+
+      <button id="button2">Click Me</button>
+      <br />
+      <textarea id="myTextArea" rows="5" cols="50"></textarea>
+    </div>
+
+    <script src="myscripts.js"></script>
   </body>
 </html>
